@@ -4,7 +4,11 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-apply plugin: 'maven'//incluir esse plugin
+apply plugin: 'maven' //incluir esse plugin
+
+apply plugin: 'com.github.dcendents.android-maven' //adicionar
+
+group='com.github.dev-costabrasil' //adicionar
 
 android {
     compileSdkVersion 28
